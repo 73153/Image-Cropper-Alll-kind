@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="KGk-i7-Jjw" customClass="SMSCustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4q-xd-1QC">
+                        <rect key="frame" x="19" y="8" width="686" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uF2-V3-QBT">
+                        <rect key="frame" x="19" y="39" width="686" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4v-uj-agb" customClass="CheckboxButton">
+                        <rect key="frame" x="706" y="7" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Zp8-ec-viN"/>
+                        </constraints>
+                        <state key="normal" image="uncheck.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="checkBoxEvent:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="it7-5N-XGW"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_sep.png" translatesAutoresizingMaskIntoConstraints="NO" id="wrU-k3-e0g">
+                        <rect key="frame" x="0.0" y="68" width="768" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ojC-ls-JSa"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wrU-k3-e0g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0qa-4d-r6x"/>
+                    <constraint firstAttribute="bottom" secondItem="B4v-uj-agb" secondAttribute="bottom" constant="12" id="10D-5Z-Uiw"/>
+                    <constraint firstAttribute="trailing" secondItem="wrU-k3-e0g" secondAttribute="trailing" id="JjF-ui-JXt"/>
+                    <constraint firstItem="B4v-uj-agb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="KQ9-8W-aqB"/>
+                    <constraint firstAttribute="trailing" secondItem="B4v-uj-agb" secondAttribute="trailing" constant="12" id="N1d-X8-d8m"/>
+                    <constraint firstAttribute="bottom" secondItem="wrU-k3-e0g" secondAttribute="bottom" id="m7B-xi-S6i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnSelectContact" destination="B4v-uj-agb" id="huc-rS-9fR"/>
+                <outlet property="lblName" destination="K4q-xd-1QC" id="cGS-q2-q5P"/>
+                <outlet property="lblPhoneNumber" destination="uF2-V3-QBT" id="VTP-6M-Jnk"/>
+            </connections>
+            <point key="canvasLocation" x="215" y="234"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="menu_sep.png" width="400" height="2"/>
+        <image name="uncheck.png" width="25" height="25"/>
+    </resources>
+</document>

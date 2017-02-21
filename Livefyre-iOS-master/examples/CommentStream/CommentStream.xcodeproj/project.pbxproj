@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		938974CA84AA4DFDBBCCCD67 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B24C48529EA4C478A1414B0 /* libPods.a */; };
+		EF05E46A181CD36700153F42 /* LFSOembed.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05E469181CD36700153F42 /* LFSOembed.m */; };
+		EF0CEBB91950570E0003BF4B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0CEBB81950570E0003BF4B /* AssetsLibrary.framework */; };
+		EF1179D117B5BE3F00D59E54 /* LFSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF1179D017B5BE3F00D59E54 /* LFSConfig.plist */; };
+		EF200BD017BBB63A007E5295 /* LFSAttributedTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF200BCF17BBB63A007E5295 /* LFSAttributedTextCell.m */; };
+		EF2251E417F21295006482BD /* LFSContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2251E317F21295006482BD /* LFSContent.m */; };
+		EF4CC0A3180810470042DB40 /* LFSDeletedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CC0A2180810470042DB40 /* LFSDeletedCell.m */; };
+		EF529E3B17F39ECF00836ACE /* LFSContentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529E3A17F39ECF00836ACE /* LFSContentToolbar.m */; };
+		EF59CFEB1922BDF0007EACD7 /* LFSViewResources.m in Sources */ = {isa = PBXBuildFile; fileRef = EF59CFEA1922BDF0007EACD7 /* LFSViewResources.m */; };
+		EF59CFF119268C93007EACD7 /* LFSContentActions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF59CFF019268C93007EACD7 /* LFSContentActions.m */; };
+		EF5AFED317E3C13000D5A7DF /* LFSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AFED217E3C13000D5A7DF /* LFSDetailViewController.m */; };
+		EF5AFED617E3C2B900D5A7DF /* LFSPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AFED517E3C2B900D5A7DF /* LFSPostViewController.m */; };
+		EF62178217E8F76900700808 /* LFSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62178117E8F76900700808 /* LFSTextField.m */; };
+		EF6683E017BB97E2005F5FC3 /* LFSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6683DC17BB97E2005F5FC3 /* LFSAppDelegate.m */; };
+		EF6683E117BB97E2005F5FC3 /* LFSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6683DE17BB97E2005F5FC3 /* LFSCollectionViewController.m */; };
+		EF7BB6DC17B2B718009E2E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7BB6DB17B2B718009E2E70 /* Foundation.framework */; };
+		EF7BB6DE17B2B718009E2E70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7BB6DD17B2B718009E2E70 /* CoreGraphics.framework */; };
+		EF7BB6E017B2B718009E2E70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7BB6DF17B2B718009E2E70 /* UIKit.framework */; };
+		EF7BB6E617B2B718009E2E70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF7BB6E417B2B718009E2E70 /* InfoPlist.strings */; };
+		EF7BB6E817B2B718009E2E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB6E717B2B718009E2E70 /* main.m */; };
+		EF7BB6F417B2B718009E2E70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7BB6F317B2B718009E2E70 /* Images.xcassets */; };
+		EF85A19C1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85A19B1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.m */; };
+		EF9EB0EE19350DE90063AFA3 /* UIColor+CommentStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EB0ED19350DE90063AFA3 /* UIColor+CommentStream.m */; };
+		EFA106C119031D2E002E8411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7BB6ED17B2B718009E2E70 /* Main.storyboard */; };
+		EFA106C2190563A9002E8411 /* UIImage+LFSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA106BE19031CAB002E8411 /* UIImage+LFSUtils.m */; };
+		EFA106C3190563A9002E8411 /* UILabel+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA106BF19031CAB002E8411 /* UILabel+Trim.m */; };
+		EFA106C4190563A9002E8411 /* UIWebView+ScrollViewContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA106C019031CAB002E8411 /* UIWebView+ScrollViewContentSize.m */; };
+		EFA21EAC17F970ED003589EB /* LFSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA21EAB17F970ED003589EB /* LFSResource.m */; };
+		EFACF83717F4EC19003B3FF6 /* LFSDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFACF83617F4EC19003B3FF6 /* LFSDetailView.m */; };
+		EFAF25FC1815E820005632B2 /* LFSAttributedLabelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAF25FB1815E820005632B2 /* LFSAttributedLabelDelegate.m */; };
+		EFAF25FF18162935005632B2 /* LFSRightAlignedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAF25FE18162935005632B2 /* LFSRightAlignedButton.m */; };
+		EFB27A9C17EE3FFA008AD723 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB27A9B17EE3FFA008AD723 /* QuartzCore.framework */; };
+		EFC4F61317DFC35C00E60F6F /* LFSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4F61217DFC35C00E60F6F /* LFSRootViewController.m */; };
+		EFC5CED617FE1FC800936EBD /* LFSContentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC5CED417FE1FC800936EBD /* LFSContentCollection.m */; };
+		EFC9574E17CE968B0033C858 /* LFSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9574D17CE968B0033C858 /* LFSConfig.m */; };
+		EFCB940817F1119600FB9384 /* LFSAuthorCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCB940717F1119600FB9384 /* LFSAuthorCollection.m */; };
+		EFCB940B17F141E500FB9384 /* LFSAuthorProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCB940A17F141E500FB9384 /* LFSAuthorProfile.m */; };
+		EFCB9F8C17EBED3B00797BCE /* LFSBasicHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCB9F8B17EBED3B00797BCE /* LFSBasicHTMLParser.m */; };
+		EFD5BFD617EC604500C28880 /* LFSBasicHTMLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5BFD517EC604500C28880 /* LFSBasicHTMLLabel.m */; };
+		EFE0A2EB180E7307006F0AB3 /* LFSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0A2EA180E7307006F0AB3 /* LFSUser.m */; };
+		EFE0A2EE180E8B6E006F0AB3 /* LFSWriteCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0A2ED180E8B6E006F0AB3 /* LFSWriteCommentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B24C48529EA4C478A1414B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA268D01CA8446E4BA6D3FC3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		EF05E468181CD36700153F42 /* LFSOembed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSOembed.h; path = Classes/LFSOembed.h; sourceTree = "<group>"; };
+		EF05E469181CD36700153F42 /* LFSOembed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSOembed.m; path = Classes/LFSOembed.m; sourceTree = "<group>"; };
+		EF0CEBB81950570E0003BF4B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EF1179D017B5BE3F00D59E54 /* LFSConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LFSConfig.plist; sourceTree = "<group>"; };
+		EF200BCE17BBB63A007E5295 /* LFSAttributedTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSAttributedTextCell.h; path = Classes/LFSAttributedTextCell.h; sourceTree = "<group>"; };
+		EF200BCF17BBB63A007E5295 /* LFSAttributedTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSAttributedTextCell.m; path = Classes/LFSAttributedTextCell.m; sourceTree = "<group>"; };
+		EF2251E217F21295006482BD /* LFSContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSContent.h; path = Classes/LFSContent.h; sourceTree = "<group>"; };
+		EF2251E317F21295006482BD /* LFSContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSContent.m; path = Classes/LFSContent.m; sourceTree = "<group>"; };
+		EF4CC0A1180810470042DB40 /* LFSDeletedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSDeletedCell.h; path = Classes/LFSDeletedCell.h; sourceTree = "<group>"; };
+		EF4CC0A2180810470042DB40 /* LFSDeletedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSDeletedCell.m; path = Classes/LFSDeletedCell.m; sourceTree = "<group>"; };
+		EF4D0693182880B800DCCEF7 /* LFSModelMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSModelMacros.h; path = Classes/LFSModelMacros.h; sourceTree = "<group>"; };
+		EF529E3917F39ECF00836ACE /* LFSContentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSContentToolbar.h; path = Classes/LFSContentToolbar.h; sourceTree = "<group>"; };
+		EF529E3A17F39ECF00836ACE /* LFSContentToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSContentToolbar.m; path = Classes/LFSContentToolbar.m; sourceTree = "<group>"; };
+		EF59CFE91922BDF0007EACD7 /* LFSViewResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSViewResources.h; path = Classes/LFSViewResources.h; sourceTree = "<group>"; };
+		EF59CFEA1922BDF0007EACD7 /* LFSViewResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSViewResources.m; path = Classes/LFSViewResources.m; sourceTree = "<group>"; };
+		EF59CFEF19268C93007EACD7 /* LFSContentActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSContentActions.h; path = Classes/LFSContentActions.h; sourceTree = "<group>"; };
+		EF59CFF019268C93007EACD7 /* LFSContentActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSContentActions.m; path = Classes/LFSContentActions.m; sourceTree = "<group>"; };
+		EF5AFED117E3C13000D5A7DF /* LFSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSDetailViewController.h; path = Classes/LFSDetailViewController.h; sourceTree = "<group>"; };
+		EF5AFED217E3C13000D5A7DF /* LFSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSDetailViewController.m; path = Classes/LFSDetailViewController.m; sourceTree = "<group>"; };
+		EF5AFED417E3C2B900D5A7DF /* LFSPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSPostViewController.h; path = Classes/LFSPostViewController.h; sourceTree = "<group>"; };
+		EF5AFED517E3C2B900D5A7DF /* LFSPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSPostViewController.m; path = Classes/LFSPostViewController.m; sourceTree = "<group>"; };
+		EF62178017E8F76900700808 /* LFSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSTextField.h; path = Classes/LFSTextField.h; sourceTree = "<group>"; };
+		EF62178117E8F76900700808 /* LFSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSTextField.m; path = Classes/LFSTextField.m; sourceTree = "<group>"; };
+		EF6683DB17BB97E2005F5FC3 /* LFSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSAppDelegate.h; path = Classes/LFSAppDelegate.h; sourceTree = "<group>"; };
+		EF6683DC17BB97E2005F5FC3 /* LFSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSAppDelegate.m; path = Classes/LFSAppDelegate.m; sourceTree = "<group>"; };
+		EF6683DD17BB97E2005F5FC3 /* LFSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSCollectionViewController.h; path = Classes/LFSCollectionViewController.h; sourceTree = "<group>"; };
+		EF6683DE17BB97E2005F5FC3 /* LFSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSCollectionViewController.m; path = Classes/LFSCollectionViewController.m; sourceTree = "<group>"; };
+		EF7BB6D817B2B718009E2E70 /* CommentStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7BB6DB17B2B718009E2E70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF7BB6DD17B2B718009E2E70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF7BB6DF17B2B718009E2E70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF7BB6E317B2B718009E2E70 /* CommentStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommentStream-Info.plist"; sourceTree = "<group>"; };
+		EF7BB6E517B2B718009E2E70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF7BB6E717B2B718009E2E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7BB6E917B2B718009E2E70 /* CommentStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommentStream-Prefix.pch"; sourceTree = "<group>"; };
+		EF7BB6EE17B2B718009E2E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7BB6F317B2B718009E2E70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF85A19A1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+StatusBarHidden.h"; sourceTree = "<group>"; };
+		EF85A19B1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+StatusBarHidden.m"; sourceTree = "<group>"; };
+		EF9EB0EC19350DE90063AFA3 /* UIColor+CommentStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CommentStream.h"; sourceTree = "<group>"; };
+		EF9EB0ED19350DE90063AFA3 /* UIColor+CommentStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CommentStream.m"; sourceTree = "<group>"; };
+		EFA106B219031C2C002E8411 /* UIImage+LFSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LFSUtils.h"; sourceTree = "<group>"; };
+		EFA106B419031C2C002E8411 /* UILabel+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Trim.h"; sourceTree = "<group>"; };
+		EFA106B619031C2C002E8411 /* UIWebView+ScrollViewContentSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ScrollViewContentSize.h"; sourceTree = "<group>"; };
+		EFA106BE19031CAB002E8411 /* UIImage+LFSUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LFSUtils.m"; sourceTree = "<group>"; };
+		EFA106BF19031CAB002E8411 /* UILabel+Trim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Trim.m"; sourceTree = "<group>"; };
+		EFA106C019031CAB002E8411 /* UIWebView+ScrollViewContentSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ScrollViewContentSize.m"; sourceTree = "<group>"; };
+		EFA21EAA17F970ED003589EB /* LFSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSResource.h; path = Classes/LFSResource.h; sourceTree = "<group>"; };
+		EFA21EAB17F970ED003589EB /* LFSResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSResource.m; path = Classes/LFSResource.m; sourceTree = "<group>"; };
+		EFACF83517F4EC19003B3FF6 /* LFSDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSDetailView.h; path = Classes/LFSDetailView.h; sourceTree = "<group>"; };
+		EFACF83617F4EC19003B3FF6 /* LFSDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSDetailView.m; path = Classes/LFSDetailView.m; sourceTree = "<group>"; };
+		EFAF25FA1815E820005632B2 /* LFSAttributedLabelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSAttributedLabelDelegate.h; path = Classes/LFSAttributedLabelDelegate.h; sourceTree = "<group>"; };
+		EFAF25FB1815E820005632B2 /* LFSAttributedLabelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSAttributedLabelDelegate.m; path = Classes/LFSAttributedLabelDelegate.m; sourceTree = "<group>"; };
+		EFAF25FD18162935005632B2 /* LFSRightAlignedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSRightAlignedButton.h; path = Classes/LFSRightAlignedButton.h; sourceTree = "<group>"; };
+		EFAF25FE18162935005632B2 /* LFSRightAlignedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSRightAlignedButton.m; path = Classes/LFSRightAlignedButton.m; sourceTree = "<group>"; };
+		EFB27A9B17EE3FFA008AD723 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFC4F61117DFC35C00E60F6F /* LFSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSRootViewController.h; path = Classes/LFSRootViewController.h; sourceTree = "<group>"; };
+		EFC4F61217DFC35C00E60F6F /* LFSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSRootViewController.m; path = Classes/LFSRootViewController.m; sourceTree = "<group>"; };
+		EFC5CED317FE1FC800936EBD /* LFSContentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSContentCollection.h; path = Classes/LFSContentCollection.h; sourceTree = "<group>"; };
+		EFC5CED417FE1FC800936EBD /* LFSContentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSContentCollection.m; path = Classes/LFSContentCollection.m; sourceTree = "<group>"; };
+		EFC9574C17CE968B0033C858 /* LFSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSConfig.h; path = Classes/LFSConfig.h; sourceTree = "<group>"; };
+		EFC9574D17CE968B0033C858 /* LFSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSConfig.m; path = Classes/LFSConfig.m; sourceTree = "<group>"; };
+		EFCB940617F1119600FB9384 /* LFSAuthorCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSAuthorCollection.h; path = Classes/LFSAuthorCollection.h; sourceTree = "<group>"; };
+		EFCB940717F1119600FB9384 /* LFSAuthorCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSAuthorCollection.m; path = Classes/LFSAuthorCollection.m; sourceTree = "<group>"; };
+		EFCB940917F141E500FB9384 /* LFSAuthorProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSAuthorProfile.h; path = Classes/LFSAuthorProfile.h; sourceTree = "<group>"; };
+		EFCB940A17F141E500FB9384 /* LFSAuthorProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSAuthorProfile.m; path = Classes/LFSAuthorProfile.m; sourceTree = "<group>"; };
+		EFCB9F8A17EBED3B00797BCE /* LFSBasicHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSBasicHTMLParser.h; path = Classes/LFSBasicHTMLParser.h; sourceTree = "<group>"; };
+		EFCB9F8B17EBED3B00797BCE /* LFSBasicHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSBasicHTMLParser.m; path = Classes/LFSBasicHTMLParser.m; sourceTree = "<group>"; };
+		EFD5BFD417EC604500C28880 /* LFSBasicHTMLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSBasicHTMLLabel.h; path = Classes/LFSBasicHTMLLabel.h; sourceTree = "<group>"; };
+		EFD5BFD517EC604500C28880 /* LFSBasicHTMLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSBasicHTMLLabel.m; path = Classes/LFSBasicHTMLLabel.m; sourceTree = "<group>"; };
+		EFE0A2E9180E7307006F0AB3 /* LFSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSUser.h; path = Classes/LFSUser.h; sourceTree = "<group>"; };
+		EFE0A2EA180E7307006F0AB3 /* LFSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSUser.m; path = Classes/LFSUser.m; sourceTree = "<group>"; };
+		EFE0A2EC180E8B6E006F0AB3 /* LFSWriteCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSWriteCommentView.h; path = Classes/LFSWriteCommentView.h; sourceTree = "<group>"; };
+		EFE0A2ED180E8B6E006F0AB3 /* LFSWriteCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSWriteCommentView.m; path = Classes/LFSWriteCommentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7BB6D517B2B718009E2E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938974CA84AA4DFDBBCCCD67 /* libPods.a in Frameworks */,
+				EF0CEBB91950570E0003BF4B /* AssetsLibrary.framework in Frameworks */,
+				EFB27A9C17EE3FFA008AD723 /* QuartzCore.framework in Frameworks */,
+				EF7BB6DE17B2B718009E2E70 /* CoreGraphics.framework in Frameworks */,
+				EF7BB6E017B2B718009E2E70 /* UIKit.framework in Frameworks */,
+				EF7BB6DC17B2B718009E2E70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6683D817BB9785005F5FC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF25FA1815E820005632B2 /* LFSAttributedLabelDelegate.h */,
+				EFAF25FB1815E820005632B2 /* LFSAttributedLabelDelegate.m */,
+				EFC9574C17CE968B0033C858 /* LFSConfig.h */,
+				EFC9574D17CE968B0033C858 /* LFSConfig.m */,
+				EF6683DB17BB97E2005F5FC3 /* LFSAppDelegate.h */,
+				EF6683DC17BB97E2005F5FC3 /* LFSAppDelegate.m */,
+				EFC4F61117DFC35C00E60F6F /* LFSRootViewController.h */,
+				EFC4F61217DFC35C00E60F6F /* LFSRootViewController.m */,
+				EF6683DD17BB97E2005F5FC3 /* LFSCollectionViewController.h */,
+				EF6683DE17BB97E2005F5FC3 /* LFSCollectionViewController.m */,
+				EF5AFED117E3C13000D5A7DF /* LFSDetailViewController.h */,
+				EF5AFED217E3C13000D5A7DF /* LFSDetailViewController.m */,
+				EF5AFED417E3C2B900D5A7DF /* LFSPostViewController.h */,
+				EF5AFED517E3C2B900D5A7DF /* LFSPostViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF7BB6CF17B2B718009E2E70 = {
+			isa = PBXGroup;
+			children = (
+				EF7BB6E117B2B718009E2E70 /* CommentStream */,
+				EF7BB6DA17B2B718009E2E70 /* Frameworks */,
+				EF7BB6D917B2B718009E2E70 /* Products */,
+				BA268D01CA8446E4BA6D3FC3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7BB6D917B2B718009E2E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BB6D817B2B718009E2E70 /* CommentStream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7BB6DA17B2B718009E2E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CEBB81950570E0003BF4B /* AssetsLibrary.framework */,
+				EFB27A9B17EE3FFA008AD723 /* QuartzCore.framework */,
+				EF7BB6DB17B2B718009E2E70 /* Foundation.framework */,
+				EF7BB6DD17B2B718009E2E70 /* CoreGraphics.framework */,
+				EF7BB6DF17B2B718009E2E70 /* UIKit.framework */,
+				0B24C48529EA4C478A1414B0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7BB6E117B2B718009E2E70 /* CommentStream */ = {
+			isa = PBXGroup;
+			children = (
+				EFA106B119031C2C002E8411 /* Categories */,
+				EFCB940C17F141F100FB9384 /* Models */,
+				EFCB940D17F1421100FB9384 /* Views */,
+				EF6683D817BB9785005F5FC3 /* Controllers */,
+				EF7BB6ED17B2B718009E2E70 /* Main.storyboard */,
+				EF7BB6F317B2B718009E2E70 /* Images.xcassets */,
+				EF7BB6E217B2B718009E2E70 /* Supporting Files */,
+			);
+			path = CommentStream;
+			sourceTree = "<group>";
+		};
+		EF7BB6E217B2B718009E2E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1179D017B5BE3F00D59E54 /* LFSConfig.plist */,
+				EF7BB6E317B2B718009E2E70 /* CommentStream-Info.plist */,
+				EF7BB6E417B2B718009E2E70 /* InfoPlist.strings */,
+				EF7BB6E717B2B718009E2E70 /* main.m */,
+				EF7BB6E917B2B718009E2E70 /* CommentStream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA106B119031C2C002E8411 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EF85A19A1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.h */,
+				EF85A19B1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.m */,
+				EFA106B219031C2C002E8411 /* UIImage+LFSUtils.h */,
+				EFA106BE19031CAB002E8411 /* UIImage+LFSUtils.m */,
+				EFA106B419031C2C002E8411 /* UILabel+Trim.h */,
+				EFA106BF19031CAB002E8411 /* UILabel+Trim.m */,
+				EFA106B619031C2C002E8411 /* UIWebView+ScrollViewContentSize.h */,
+				EFA106C019031CAB002E8411 /* UIWebView+ScrollViewContentSize.m */,
+				EF9EB0EC19350DE90063AFA3 /* UIColor+CommentStream.h */,
+				EF9EB0ED19350DE90063AFA3 /* UIColor+CommentStream.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EFCB940C17F141F100FB9384 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D0693182880B800DCCEF7 /* LFSModelMacros.h */,
+				EFA21EAA17F970ED003589EB /* LFSResource.h */,
+				EFA21EAB17F970ED003589EB /* LFSResource.m */,
+				EFE0A2E9180E7307006F0AB3 /* LFSUser.h */,
+				EFE0A2EA180E7307006F0AB3 /* LFSUser.m */,
+				EFCB940917F141E500FB9384 /* LFSAuthorProfile.h */,
+				EFCB940A17F141E500FB9384 /* LFSAuthorProfile.m */,
+				EF2251E217F21295006482BD /* LFSContent.h */,
+				EF2251E317F21295006482BD /* LFSContent.m */,
+				EF05E468181CD36700153F42 /* LFSOembed.h */,
+				EF05E469181CD36700153F42 /* LFSOembed.m */,
+				EFCB940617F1119600FB9384 /* LFSAuthorCollection.h */,
+				EFCB940717F1119600FB9384 /* LFSAuthorCollection.m */,
+				EFC5CED317FE1FC800936EBD /* LFSContentCollection.h */,
+				EFC5CED417FE1FC800936EBD /* LFSContentCollection.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EFCB940D17F1421100FB9384 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF25FD18162935005632B2 /* LFSRightAlignedButton.h */,
+				EFAF25FE18162935005632B2 /* LFSRightAlignedButton.m */,
+				EFCB9F8A17EBED3B00797BCE /* LFSBasicHTMLParser.h */,
+				EFCB9F8B17EBED3B00797BCE /* LFSBasicHTMLParser.m */,
+				EFD5BFD417EC604500C28880 /* LFSBasicHTMLLabel.h */,
+				EFD5BFD517EC604500C28880 /* LFSBasicHTMLLabel.m */,
+				EF200BCE17BBB63A007E5295 /* LFSAttributedTextCell.h */,
+				EF200BCF17BBB63A007E5295 /* LFSAttributedTextCell.m */,
+				EF4CC0A1180810470042DB40 /* LFSDeletedCell.h */,
+				EF4CC0A2180810470042DB40 /* LFSDeletedCell.m */,
+				EF62178017E8F76900700808 /* LFSTextField.h */,
+				EF62178117E8F76900700808 /* LFSTextField.m */,
+				EF529E3917F39ECF00836ACE /* LFSContentToolbar.h */,
+				EF529E3A17F39ECF00836ACE /* LFSContentToolbar.m */,
+				EFACF83517F4EC19003B3FF6 /* LFSDetailView.h */,
+				EFACF83617F4EC19003B3FF6 /* LFSDetailView.m */,
+				EFE0A2EC180E8B6E006F0AB3 /* LFSWriteCommentView.h */,
+				EFE0A2ED180E8B6E006F0AB3 /* LFSWriteCommentView.m */,
+				EF59CFE91922BDF0007EACD7 /* LFSViewResources.h */,
+				EF59CFEA1922BDF0007EACD7 /* LFSViewResources.m */,
+				EF59CFEF19268C93007EACD7 /* LFSContentActions.h */,
+				EF59CFF019268C93007EACD7 /* LFSContentActions.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7BB6D717B2B718009E2E70 /* CommentStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7BB70A17B2B718009E2E70 /* Build configuration list for PBXNativeTarget "CommentStream" */;
+			buildPhases = (
+				CE93F0988B024B72ABF2BB39 /* Check Pods Manifest.lock */,
+				EF7BB6D417B2B718009E2E70 /* Sources */,
+				EF7BB6D517B2B718009E2E70 /* Frameworks */,
+				EF7BB6D617B2B718009E2E70 /* Resources */,
+				0A76DB356FC240B0A8ECF43A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommentStream;
+			productName = CommentStream;
+			productReference = EF7BB6D817B2B718009E2E70 /* CommentStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7BB6D017B2B718009E2E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Livefyre;
+				TargetAttributes = {
+					EF7BB6D717B2B718009E2E70 = {
+						DevelopmentTeam = 9697AX55KQ;
+					};
+				};
+			};
+			buildConfigurationList = EF7BB6D317B2B718009E2E70 /* Build configuration list for PBXProject "CommentStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7BB6CF17B2B718009E2E70;
+			productRefGroup = EF7BB6D917B2B718009E2E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7BB6D717B2B718009E2E70 /* CommentStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7BB6D617B2B718009E2E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1179D117B5BE3F00D59E54 /* LFSConfig.plist in Resources */,
+				EF7BB6F417B2B718009E2E70 /* Images.xcassets in Resources */,
+				EF7BB6E617B2B718009E2E70 /* InfoPlist.strings in Resources */,
+				EFA106C119031D2E002E8411 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A76DB356FC240B0A8ECF43A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE93F0988B024B72ABF2BB39 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7BB6D417B2B718009E2E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA106C2190563A9002E8411 /* UIImage+LFSUtils.m in Sources */,
+				EFA106C3190563A9002E8411 /* UILabel+Trim.m in Sources */,
+				EFA106C4190563A9002E8411 /* UIWebView+ScrollViewContentSize.m in Sources */,
+				EF9EB0EE19350DE90063AFA3 /* UIColor+CommentStream.m in Sources */,
+				EFA21EAC17F970ED003589EB /* LFSResource.m in Sources */,
+				EF5AFED617E3C2B900D5A7DF /* LFSPostViewController.m in Sources */,
+				EF59CFEB1922BDF0007EACD7 /* LFSViewResources.m in Sources */,
+				EF529E3B17F39ECF00836ACE /* LFSContentToolbar.m in Sources */,
+				EF6683E017BB97E2005F5FC3 /* LFSAppDelegate.m in Sources */,
+				EFE0A2EB180E7307006F0AB3 /* LFSUser.m in Sources */,
+				EF85A19C1936A8BD00EA42EB /* UIImagePickerController+StatusBarHidden.m in Sources */,
+				EFD5BFD617EC604500C28880 /* LFSBasicHTMLLabel.m in Sources */,
+				EFCB9F8C17EBED3B00797BCE /* LFSBasicHTMLParser.m in Sources */,
+				EF200BD017BBB63A007E5295 /* LFSAttributedTextCell.m in Sources */,
+				EF6683E117BB97E2005F5FC3 /* LFSCollectionViewController.m in Sources */,
+				EF05E46A181CD36700153F42 /* LFSOembed.m in Sources */,
+				EF5AFED317E3C13000D5A7DF /* LFSDetailViewController.m in Sources */,
+				EFACF83717F4EC19003B3FF6 /* LFSDetailView.m in Sources */,
+				EFE0A2EE180E8B6E006F0AB3 /* LFSWriteCommentView.m in Sources */,
+				EFCB940817F1119600FB9384 /* LFSAuthorCollection.m in Sources */,
+				EFC5CED617FE1FC800936EBD /* LFSContentCollection.m in Sources */,
+				EFCB940B17F141E500FB9384 /* LFSAuthorProfile.m in Sources */,
+				EFC4F61317DFC35C00E60F6F /* LFSRootViewController.m in Sources */,
+				EF4CC0A3180810470042DB40 /* LFSDeletedCell.m in Sources */,
+				EF7BB6E817B2B718009E2E70 /* main.m in Sources */,
+				EF62178217E8F76900700808 /* LFSTextField.m in Sources */,
+				EFC9574E17CE968B0033C858 /* LFSConfig.m in Sources */,
+				EF2251E417F21295006482BD /* LFSContent.m in Sources */,
+				EFAF25FC1815E820005632B2 /* LFSAttributedLabelDelegate.m in Sources */,
+				EFAF25FF18162935005632B2 /* LFSRightAlignedButton.m in Sources */,
+				EF59CFF119268C93007EACD7 /* LFSContentActions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7BB6E417B2B718009E2E70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7BB6E517B2B718009E2E70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF7BB6ED17B2B718009E2E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7BB6EE17B2B718009E2E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7BB70817B2B718009E2E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eugene Scherba (Z9DA588RYV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eugene Scherba (Z9DA588RYV)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7BB70917B2B718009E2E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Baker Beach Labs";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Baker Beach Labs";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7BB70B17B2B718009E2E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA268D01CA8446E4BA6D3FC3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommentStream/CommentStream-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CommentStream/CommentStream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF7BB70C17B2B718009E2E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA268D01CA8446E4BA6D3FC3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommentStream/CommentStream-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CommentStream/CommentStream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7BB6D317B2B718009E2E70 /* Build configuration list for PBXProject "CommentStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7BB70817B2B718009E2E70 /* Debug */,
+				EF7BB70917B2B718009E2E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7BB70A17B2B718009E2E70 /* Build configuration list for PBXNativeTarget "CommentStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7BB70B17B2B718009E2E70 /* Debug */,
+				EF7BB70C17B2B718009E2E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7BB6D017B2B718009E2E70 /* Project object */;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="92" id="Iuq-7J-P3W" customClass="AnnouncementCell">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Iuq-7J-P3W" id="cp8-t0-bF0">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Testing Announcement " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2av-RF-FbI">
+                        <rect key="frame" x="20" y="29" width="650" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="lr7-TF-zKc"/>
+                        </constraints>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ezI-tF-d7Y">
+                        <rect key="frame" x="595" y="0.0" width="150" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Qlq-U8-viJ"/>
+                        </constraints>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="testing" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n41-3L-imx">
+                        <rect key="frame" x="20" y="55" width="650" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="HpD-vt-CBU"/>
+                        </constraints>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_sep.png" translatesAutoresizingMaskIntoConstraints="NO" id="vhc-FL-I55">
+                        <rect key="frame" x="0.0" y="84" width="768" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="oEd-rz-iXj"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jim Thomas" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPx-CA-csB">
+                        <rect key="frame" x="20" y="0.0" width="570" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="PL4-Tx-iL2"/>
+                        </constraints>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2av-RF-FbI" firstAttribute="leading" secondItem="cp8-t0-bF0" secondAttribute="leading" constant="20" id="0PT-Jb-cm1"/>
+                    <constraint firstAttribute="bottom" secondItem="vhc-FL-I55" secondAttribute="bottom" id="6MT-E7-mUv"/>
+                    <constraint firstAttribute="trailing" secondItem="2av-RF-FbI" secondAttribute="trailing" constant="65" id="6t2-NU-Woq"/>
+                    <constraint firstAttribute="trailing" secondItem="vhc-FL-I55" secondAttribute="trailing" constant="-33" id="AS6-ge-SfQ"/>
+                    <constraint firstItem="ezI-tF-d7Y" firstAttribute="leading" secondItem="cp8-t0-bF0" secondAttribute="leading" constant="595" id="BX7-ha-PCZ"/>
+                    <constraint firstItem="n41-3L-imx" firstAttribute="leading" secondItem="cp8-t0-bF0" secondAttribute="leading" constant="20" id="CZY-wo-53m"/>
+                    <constraint firstItem="nPx-CA-csB" firstAttribute="leading" secondItem="cp8-t0-bF0" secondAttribute="leading" constant="20" id="EBX-Gj-fLi"/>
+                    <constraint firstItem="n41-3L-imx" firstAttribute="top" secondItem="cp8-t0-bF0" secondAttribute="top" constant="55" id="RNT-O6-ff4"/>
+                    <constraint firstItem="2av-RF-FbI" firstAttribute="top" secondItem="cp8-t0-bF0" secondAttribute="top" constant="29" id="SOw-xI-jiq"/>
+                    <constraint firstItem="ezI-tF-d7Y" firstAttribute="top" secondItem="cp8-t0-bF0" secondAttribute="top" id="cUe-uO-FDx"/>
+                    <constraint firstAttribute="trailing" secondItem="ezI-tF-d7Y" secondAttribute="trailing" constant="-10" id="d1O-8M-Fam"/>
+                    <constraint firstItem="vhc-FL-I55" firstAttribute="leading" secondItem="cp8-t0-bF0" secondAttribute="leading" id="jl6-f4-dkB"/>
+                    <constraint firstAttribute="trailing" secondItem="n41-3L-imx" secondAttribute="trailing" constant="65" id="lVv-03-7my"/>
+                    <constraint firstAttribute="trailing" secondItem="nPx-CA-csB" secondAttribute="trailing" constant="145" id="thT-gE-On5"/>
+                    <constraint firstItem="nPx-CA-csB" firstAttribute="top" secondItem="cp8-t0-bF0" secondAttribute="top" id="vF6-HF-5BG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblAnnoDate" destination="ezI-tF-d7Y" id="DDd-Wn-8Nm"/>
+                <outlet property="lblAnnoDesc" destination="n41-3L-imx" id="Zx0-s7-Pzd"/>
+                <outlet property="lblAnnoName" destination="2av-RF-FbI" id="gz4-W6-4O2"/>
+                <outlet property="lblSenderName" destination="nPx-CA-csB" id="go2-TD-Kpi"/>
+            </connections>
+            <point key="canvasLocation" x="551" y="216"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="menu_sep.png" width="400" height="2"/>
+    </resources>
+</document>

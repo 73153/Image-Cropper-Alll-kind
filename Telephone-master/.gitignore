@@ -1,0 +1,7 @@
+.DS_Store
+*.xcodeproj/*.mode?v?
+*.xcodeproj/*.pbxuser
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+build/
+.idea/

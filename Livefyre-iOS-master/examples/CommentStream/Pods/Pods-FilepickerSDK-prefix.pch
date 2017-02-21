@@ -1,0 +1,26 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#import "Pods-environment.h"
+//
+// Prefix header for all source files of the 'FPPicker' target in the 'FPPicker' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+//
+// Prefix header for all source files of the 'FPPicker' target in the 'FPPicker' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+//
+// Prefix header for all source files of the 'FPPicker' target in the 'FPPicker' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

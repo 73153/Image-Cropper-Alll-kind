@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FE49FE1BC19E0C00EF79FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE49FD1BC19E0C00EF79FE /* main.m */; };
+		08FE4A011BC19E0C00EF79FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE4A001BC19E0C00EF79FE /* AppDelegate.m */; };
+		08FE4A041BC19E0C00EF79FE /* TesteSip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08FE4A021BC19E0C00EF79FE /* TesteSip.xcdatamodeld */; };
+		08FE4A071BC19E0C00EF79FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE4A061BC19E0C00EF79FE /* ViewController.m */; };
+		08FE4A0A1BC19E0C00EF79FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FE4A081BC19E0C00EF79FE /* Main.storyboard */; };
+		08FE4A0C1BC19E0C00EF79FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FE4A0B1BC19E0C00EF79FE /* Images.xcassets */; };
+		08FE4A0F1BC19E0C00EF79FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FE4A0D1BC19E0C00EF79FE /* LaunchScreen.xib */; };
+		08FE4A1B1BC19E0C00EF79FE /* TesteSipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE4A1A1BC19E0C00EF79FE /* TesteSipTests.m */; };
+		08FE4A2C1BC1A02200EF79FE /* libpjsip-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FE4A291BC19FFA00EF79FE /* libpjsip-ios.a */; };
+		08FE4A2E1BC1A02D00EF79FE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FE4A2D1BC1A02D00EF79FE /* AudioToolbox.framework */; };
+		08FE4A301BC1A03400EF79FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FE4A2F1BC1A03400EF79FE /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08FE4A151BC19E0C00EF79FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FE49F01BC19E0C00EF79FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08FE49F71BC19E0C00EF79FE;
+			remoteInfo = TesteSip;
+		};
+		08FE4A281BC19FFA00EF79FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FE4A241BC19FFA00EF79FE /* pjsip-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22697EB81B034E2A00A15C4E;
+			remoteInfo = "pjsip-ios";
+		};
+		08FE4A2A1BC1A00D00EF79FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FE4A241BC19FFA00EF79FE /* pjsip-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 22697EB71B034E2A00A15C4E;
+			remoteInfo = "pjsip-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FE49F81BC19E0C00EF79FE /* TesteSip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteSip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FE49FC1BC19E0C00EF79FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FE49FD1BC19E0C00EF79FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FE49FF1BC19E0C00EF79FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08FE4A001BC19E0C00EF79FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08FE4A031BC19E0C00EF79FE /* TesteSip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TesteSip.xcdatamodel; sourceTree = "<group>"; };
+		08FE4A051BC19E0C00EF79FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08FE4A061BC19E0C00EF79FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08FE4A091BC19E0C00EF79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08FE4A0B1BC19E0C00EF79FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08FE4A0E1BC19E0C00EF79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		08FE4A141BC19E0C00EF79FE /* TesteSipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteSipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FE4A191BC19E0C00EF79FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FE4A1A1BC19E0C00EF79FE /* TesteSipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesteSipTests.m; sourceTree = "<group>"; };
+		08FE4A241BC19FFA00EF79FE /* pjsip-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "pjsip-ios.xcodeproj"; path = "PJSIP-iOS/pjsip-ios.xcodeproj"; sourceTree = "<group>"; };
+		08FE4A2D1BC1A02D00EF79FE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		08FE4A2F1BC1A03400EF79FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08FE49F51BC19E0C00EF79FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FE4A301BC1A03400EF79FE /* AVFoundation.framework in Frameworks */,
+				08FE4A2E1BC1A02D00EF79FE /* AudioToolbox.framework in Frameworks */,
+				08FE4A2C1BC1A02200EF79FE /* libpjsip-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FE4A111BC19E0C00EF79FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FE49EF1BC19E0C00EF79FE = {
+			isa = PBXGroup;
+			children = (
+				08FE4A2F1BC1A03400EF79FE /* AVFoundation.framework */,
+				08FE4A2D1BC1A02D00EF79FE /* AudioToolbox.framework */,
+				08FE4A241BC19FFA00EF79FE /* pjsip-ios.xcodeproj */,
+				08FE49FA1BC19E0C00EF79FE /* TesteSip */,
+				08FE4A171BC19E0C00EF79FE /* TesteSipTests */,
+				08FE49F91BC19E0C00EF79FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08FE49F91BC19E0C00EF79FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08FE49F81BC19E0C00EF79FE /* TesteSip.app */,
+				08FE4A141BC19E0C00EF79FE /* TesteSipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08FE49FA1BC19E0C00EF79FE /* TesteSip */ = {
+			isa = PBXGroup;
+			children = (
+				08FE49FF1BC19E0C00EF79FE /* AppDelegate.h */,
+				08FE4A001BC19E0C00EF79FE /* AppDelegate.m */,
+				08FE4A051BC19E0C00EF79FE /* ViewController.h */,
+				08FE4A061BC19E0C00EF79FE /* ViewController.m */,
+				08FE4A081BC19E0C00EF79FE /* Main.storyboard */,
+				08FE4A0B1BC19E0C00EF79FE /* Images.xcassets */,
+				08FE4A0D1BC19E0C00EF79FE /* LaunchScreen.xib */,
+				08FE4A021BC19E0C00EF79FE /* TesteSip.xcdatamodeld */,
+				08FE49FB1BC19E0C00EF79FE /* Supporting Files */,
+			);
+			path = TesteSip;
+			sourceTree = "<group>";
+		};
+		08FE49FB1BC19E0C00EF79FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FE49FC1BC19E0C00EF79FE /* Info.plist */,
+				08FE49FD1BC19E0C00EF79FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08FE4A171BC19E0C00EF79FE /* TesteSipTests */ = {
+			isa = PBXGroup;
+			children = (
+				08FE4A1A1BC19E0C00EF79FE /* TesteSipTests.m */,
+				08FE4A181BC19E0C00EF79FE /* Supporting Files */,
+			);
+			path = TesteSipTests;
+			sourceTree = "<group>";
+		};
+		08FE4A181BC19E0C00EF79FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FE4A191BC19E0C00EF79FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08FE4A251BC19FFA00EF79FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08FE4A291BC19FFA00EF79FE /* libpjsip-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08FE49F71BC19E0C00EF79FE /* TesteSip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FE4A1E1BC19E0C00EF79FE /* Build configuration list for PBXNativeTarget "TesteSip" */;
+			buildPhases = (
+				08FE49F41BC19E0C00EF79FE /* Sources */,
+				08FE49F51BC19E0C00EF79FE /* Frameworks */,
+				08FE49F61BC19E0C00EF79FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08FE4A2B1BC1A00D00EF79FE /* PBXTargetDependency */,
+			);
+			name = TesteSip;
+			productName = TesteSip;
+			productReference = 08FE49F81BC19E0C00EF79FE /* TesteSip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08FE4A131BC19E0C00EF79FE /* TesteSipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FE4A211BC19E0C00EF79FE /* Build configuration list for PBXNativeTarget "TesteSipTests" */;
+			buildPhases = (
+				08FE4A101BC19E0C00EF79FE /* Sources */,
+				08FE4A111BC19E0C00EF79FE /* Frameworks */,
+				08FE4A121BC19E0C00EF79FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08FE4A161BC19E0C00EF79FE /* PBXTargetDependency */,
+			);
+			name = TesteSipTests;
+			productName = TesteSipTests;
+			productReference = 08FE4A141BC19E0C00EF79FE /* TesteSipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FE49F01BC19E0C00EF79FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TesteSip;
+				TargetAttributes = {
+					08FE49F71BC19E0C00EF79FE = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					08FE4A131BC19E0C00EF79FE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 08FE49F71BC19E0C00EF79FE;
+					};
+				};
+			};
+			buildConfigurationList = 08FE49F31BC19E0C00EF79FE /* Build configuration list for PBXProject "TesteSip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08FE49EF1BC19E0C00EF79FE;
+			productRefGroup = 08FE49F91BC19E0C00EF79FE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 08FE4A251BC19FFA00EF79FE /* Products */;
+					ProjectRef = 08FE4A241BC19FFA00EF79FE /* pjsip-ios.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				08FE49F71BC19E0C00EF79FE /* TesteSip */,
+				08FE4A131BC19E0C00EF79FE /* TesteSipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		08FE4A291BC19FFA00EF79FE /* libpjsip-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpjsip-ios.a";
+			remoteRef = 08FE4A281BC19FFA00EF79FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08FE49F61BC19E0C00EF79FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FE4A0A1BC19E0C00EF79FE /* Main.storyboard in Resources */,
+				08FE4A0F1BC19E0C00EF79FE /* LaunchScreen.xib in Resources */,
+				08FE4A0C1BC19E0C00EF79FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FE4A121BC19E0C00EF79FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08FE49F41BC19E0C00EF79FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FE4A041BC19E0C00EF79FE /* TesteSip.xcdatamodeld in Sources */,
+				08FE4A011BC19E0C00EF79FE /* AppDelegate.m in Sources */,
+				08FE4A071BC19E0C00EF79FE /* ViewController.m in Sources */,
+				08FE49FE1BC19E0C00EF79FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FE4A101BC19E0C00EF79FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FE4A1B1BC19E0C00EF79FE /* TesteSipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08FE4A161BC19E0C00EF79FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08FE49F71BC19E0C00EF79FE /* TesteSip */;
+			targetProxy = 08FE4A151BC19E0C00EF79FE /* PBXContainerItemProxy */;
+		};
+		08FE4A2B1BC1A00D00EF79FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "pjsip-ios";
+			targetProxy = 08FE4A2A1BC1A00D00EF79FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08FE4A081BC19E0C00EF79FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FE4A091BC19E0C00EF79FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08FE4A0D1BC19E0C00EF79FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FE4A0E1BC19E0C00EF79FE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08FE4A1C1BC19E0C00EF79FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08FE4A1D1BC19E0C00EF79FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08FE4A1F1BC19E0C00EF79FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TesteSip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08FE4A201BC19E0C00EF79FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TesteSip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08FE4A221BC19E0C00EF79FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TesteSipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSip.app/TesteSip";
+			};
+			name = Debug;
+		};
+		08FE4A231BC19E0C00EF79FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TesteSipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteSip.app/TesteSip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08FE49F31BC19E0C00EF79FE /* Build configuration list for PBXProject "TesteSip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FE4A1C1BC19E0C00EF79FE /* Debug */,
+				08FE4A1D1BC19E0C00EF79FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08FE4A1E1BC19E0C00EF79FE /* Build configuration list for PBXNativeTarget "TesteSip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FE4A1F1BC19E0C00EF79FE /* Debug */,
+				08FE4A201BC19E0C00EF79FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08FE4A211BC19E0C00EF79FE /* Build configuration list for PBXNativeTarget "TesteSipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FE4A221BC19E0C00EF79FE /* Debug */,
+				08FE4A231BC19E0C00EF79FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08FE4A021BC19E0C00EF79FE /* TesteSip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08FE4A031BC19E0C00EF79FE /* TesteSip.xcdatamodel */,
+			);
+			currentVersion = 08FE4A031BC19E0C00EF79FE /* TesteSip.xcdatamodel */;
+			path = TesteSip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08FE49F01BC19E0C00EF79FE /* Project object */;
+}

@@ -1,0 +1,3 @@
+[submodule "PJSIP-iOS"]
+	path = PJSIP-iOS
+	url = https://github.com/otaviokz/PJSIP-iOS
